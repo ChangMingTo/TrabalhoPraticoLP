@@ -10,6 +10,6 @@ namespace Scrum.Models
     {
         Essencial=1,
         Interesting,
-        NotNeeded
+        WillBeGoodToHave
     }
 }

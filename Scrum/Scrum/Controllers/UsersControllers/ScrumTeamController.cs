@@ -27,17 +27,6 @@ namespace Scrum.Controllers
         }
 
         /// <summary>
-        /// Remove Teams
-        /// </summary>
-        /// <param name="team"></param>
-        /// <returns></returns>
-        public bool RemoveTeam(ScrumTeamController team)
-        {
-            teams.Remove(team);
-            return true;
-        }
-
-        /// <summary>
         /// Adiciona colaborados á team
         /// </summary>
         /// <param name="teamScrum"></param>
@@ -84,19 +73,6 @@ namespace Scrum.Controllers
         /// <param name="teamScrum"></param>
         /// <param name="funcao"></param>
         /// <returns></returns>
-        public bool RemoveDeveloperFromTeamByUsername(ScrumTeam teamScrum, Function funcao)
-        {
-            bool a = false;
-            foreach(Developer b in teamScrum.Developers)
-            {
-                if (b.Fuction == funcao)
-                {
-                    teamScrum.Developers.Remove(b);
-                    a = true;
-                }
-            }
-            return a;
-        }
 
     }
 }

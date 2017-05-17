@@ -62,6 +62,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Controllers\ProcessController\TasksController.cs" />
     <Compile Include="Controllers\UsersControllers\DevelopersController.cs" />
     <Compile Include="Controllers\ProcessController\MettingController.cs" />
     <Compile Include="Controllers\UsersControllers\ProductController.cs" />
@@ -74,19 +75,15 @@
   <ItemGroup>
     <Compile Include="Models\Process\DailyMettings.cs" />
     <Compile Include="Models\Process\Date.cs" />
+    <Compile Include="Models\Process\SprintValidation.cs" />
     <Compile Include="Models\Users\Developer.cs" />
-    <Compile Include="Models\Process\Function.cs" />
-    <Compile Include="Models\Process\Konwledge.cs" />
     <Compile Include="Models\Process\Priority.cs" />
     <Compile Include="Models\Users\Product.cs" />
     <Compile Include="Models\Users\ProductOwner.cs" />
     <Compile Include="Models\Process\Project.cs" />
-    <Compile Include="Models\Users\ScrumMaster.cs" />
     <Compile Include="Models\Users\ScrumTeam.cs" />
-    <Compile Include="Models\Process\Solution.cs" />
     <Compile Include="Models\Process\Sprint.cs" />
     <Compile Include="Models\Process\State.cs" />
-    <Compile Include="Models\Process\StateTesting.cs" />
     <Compile Include="Models\Process\Task.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

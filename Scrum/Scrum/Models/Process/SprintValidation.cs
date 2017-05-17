@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Scrum.Models
+namespace Scrum.Models.Process
 {
-    public enum Konwledge
+    public enum SprintValidation
     {
-        Junior=1,
-        Pleno,
-        Senior,
-        Master,
-        Expertise
+        Valid = 1,
+        NeedRefactoring,
+        StartFromBeggining
     }
 }

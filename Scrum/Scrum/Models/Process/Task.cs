@@ -14,7 +14,7 @@ namespace Scrum.Models
         }
         public string TaskDescription { get; set; }
         public Priority Prioridade { get; set; }
-        public State Progress { get; set; }
         public Developer DeveloperWorkingOn { get; set; }
+        public State Progress { get; set; }
     }
 }

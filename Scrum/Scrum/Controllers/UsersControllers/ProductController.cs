@@ -27,17 +27,5 @@ namespace Scrum.Controllers
                 return true;
             }
         }
-        public bool RemoveProduct(Product add)
-        {
-            if (productList.Contains(add)==true)
-            {
-                productList.Remove(add);
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
     }
 }

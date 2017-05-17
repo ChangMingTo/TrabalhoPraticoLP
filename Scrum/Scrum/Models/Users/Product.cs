@@ -8,16 +8,16 @@ namespace Scrum.Models
 {
     public class Product
     {
-        public Product(string a)
+        public Product(string nome,ProductOwner owner)
         {
-            Nome = a;
+            Nome = nome;
+            Owner = owner;
         }
         public string Nome { get; set;}
         public ProductOwner Owner { get; set; }
-        public Solution Solutions { get; set; }
         public Sprint EleapsedTime { get; set; }
         public State Progress { get; set; }
         public ScrumTeam DeveloperTeam { get; set; }
-        public ScrumMaster Master { get; set; }
+        public List<Project> Projects { get; set; }
     }
 }

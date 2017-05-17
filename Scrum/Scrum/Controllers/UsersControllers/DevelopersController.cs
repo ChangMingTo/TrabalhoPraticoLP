@@ -26,17 +26,5 @@ namespace Scrum.Controllers
                 return true;
             }
         }
-        public bool RemoveDeveloper(Developer add)
-        {
-            if (developers.Contains(add) == true)
-            {
-                developers.Remove(add);
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
     }
 }

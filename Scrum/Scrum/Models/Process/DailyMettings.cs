@@ -14,6 +14,5 @@ namespace Scrum.Models
         }
         public Date Data { get; set; }
         public ScrumTeam Team { get; set; }
-        public string Goals { get; set; }
     }
 }
